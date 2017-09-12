@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PersonRepoDemo"    #名称
-  s.version          = "0.3.0"            #版本号
+  s.version          = "0.4.0"            #版本号
   s.summary          = "This is my first cocoapods project, is a simple project!"     #简短介绍，下面是详细介绍
   s.description      = <<-DESC
                        Testing Private Podspec.
@@ -9,10 +9,11 @@ Pod::Spec.new do |s|
                        * Don't worry about the indent, we strip it!
                        DESC
   s.homepage         = "https://github.com/jiangguangpeng/antonio"                           #主页,这里要填写可以访问到的地址，不然验证不通过
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"           #截图
-s.license          = {:type => "MIT", :file => "LICENSE"}             #开源协议
+
+
+
   s.author           = { "jiangguangpeng" => "jiangguangpeng@sina.cn" }                   #作者信息
-  s.source           = { :git => "https://github.com/jiangguangpeng/antonio.git", :tag => s.version }      #项目地址，这里不支持ssh的地址，验证不通过，只支持HTTP和HTTPS，最好使用HTTPS
+  s.source           = { :git => "https://github.com/jiangguangpeng/antonio.git", :tag => s.version.to_s }      #项目地址，这里不支持ssh的地址，验证不通过，只支持HTTP和HTTPS，最好使用HTTPS
   # s.social_media_url = 'https://twitter.com/'                       #多媒体介绍地址
 
   s.platform     = :ios, '8.0'            #支持的平台及版本
@@ -26,4 +27,6 @@ s.license          = {:type => "MIT", :file => "LICENSE"}             #开源协
   s.public_header_files = 'PersonRepoDemo/*.h'   #公开头文件地址
   s.frameworks = 'UIKit'                  #所需的framework，多个用逗号隔开
   s.dependency 'AFNetworking', '~> 2.3'   #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
+
+  s.license          = {:type => "MIT", :file => "LICENSE"}             #开源协议
 end
