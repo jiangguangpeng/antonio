@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PersonRepoDemo"    #名称
-  s.version          = "0.2.0"            #版本号
+  s.version          = "0.3.0"            #版本号
   s.summary          = "This is my first cocoapods project, is a simple project!"     #简短介绍，下面是详细介绍
   s.description      = <<-DESC
                        Testing Private Podspec.
