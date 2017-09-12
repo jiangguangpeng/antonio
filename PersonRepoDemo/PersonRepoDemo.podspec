@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PersonRepoDemo"    #名称
-  s.version          = "0.1.0"            #版本号
+  s.version          = "0.2.0"            #版本号
   s.summary          = "This is my first cocoapods project, is a simple project!"     #简短介绍，下面是详细介绍
   s.description      = <<-DESC
                        Testing Private Podspec.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"           #截图
 s.license          = {:type => "MIT", :file => "LICENSE"}             #开源协议
   s.author           = { "jiangguangpeng" => "jiangguangpeng@sina.cn" }                   #作者信息
-  s.source           = { :git => "https://github.com/jiangguangpeng/antonio.git", :tag => "0.1.0" }      #项目地址，这里不支持ssh的地址，验证不通过，只支持HTTP和HTTPS，最好使用HTTPS
+  s.source           = { :git => "https://github.com/jiangguangpeng/antonio.git", :tag => s.version }      #项目地址，这里不支持ssh的地址，验证不通过，只支持HTTP和HTTPS，最好使用HTTPS
   # s.social_media_url = 'https://twitter.com/'                       #多媒体介绍地址
 
   s.platform     = :ios, '8.0'            #支持的平台及版本
