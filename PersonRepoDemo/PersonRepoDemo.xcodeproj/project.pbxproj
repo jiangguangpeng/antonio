@@ -16,7 +16,7 @@
 		A971F6ED1F669C8A004EC6D5 /* PersonRepoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A971F6EC1F669C8A004EC6D5 /* PersonRepoDemoTests.m */; };
 		A971F6F81F669C8A004EC6D5 /* PersonRepoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A971F6F71F669C8A004EC6D5 /* PersonRepoDemoUITests.m */; };
 		A971F7081F67CC14004EC6D5 /* PersonRepoDemo.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A971F7071F67CC14004EC6D5 /* PersonRepoDemo.podspec */; };
-		A971F70A1F67CC97004EC6D5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A971F7091F67CC97004EC6D5 /* LICENSE */; };
+		A971F70C1F67DA85004EC6D5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A971F70B1F67DA85004EC6D5 /* LICENSE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		A971F6F71F669C8A004EC6D5 /* PersonRepoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonRepoDemoUITests.m; sourceTree = "<group>"; };
 		A971F6F91F669C8A004EC6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A971F7071F67CC14004EC6D5 /* PersonRepoDemo.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PersonRepoDemo.podspec; sourceTree = "<group>"; };
-		A971F7091F67CC97004EC6D5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A971F70B1F67DA85004EC6D5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 		A971F6D21F669C8A004EC6D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A971F7091F67CC97004EC6D5 /* LICENSE */,
+				A971F70B1F67DA85004EC6D5 /* LICENSE */,
 				A971F7071F67CC14004EC6D5 /* PersonRepoDemo.podspec */,
 				A971F6D31F669C8A004EC6D5 /* main.m */,
 			);
@@ -259,7 +259,7 @@
 				A971F6E21F669C8A004EC6D5 /* LaunchScreen.storyboard in Resources */,
 				A971F6DF1F669C8A004EC6D5 /* Assets.xcassets in Resources */,
 				A971F6DD1F669C8A004EC6D5 /* Main.storyboard in Resources */,
-				A971F70A1F67CC97004EC6D5 /* LICENSE in Resources */,
+				A971F70C1F67DA85004EC6D5 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
